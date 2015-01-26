@@ -26,11 +26,11 @@ Public Class APIResult
 End Class
 
 Public Class AuctionResult1
-    Public Property [auctions] As AuctionResult2()
+    Public Property auctions As AuctionResult2()
 End Class
 
 Public Class AuctionResult2
-    Public Property [auctions] As AuctionItem()
+    Public Property auctions As AuctionItem()
 End Class
 
 Public Class AuctionItem
